@@ -16,9 +16,10 @@
 		A701B4BC17AF47A4009FB755 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A701B4BB17AF47A4009FB755 /* Default.png */; };
 		A701B4BE17AF47A4009FB755 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A701B4BD17AF47A4009FB755 /* Default@2x.png */; };
 		A701B4C017AF47A4009FB755 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A701B4BF17AF47A4009FB755 /* Default-568h@2x.png */; };
-		A701B4C317AF47A4009FB755 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A701B4C217AF47A4009FB755 /* ViewController.m */; };
-		A701B4C617AF47A4009FB755 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A701B4C417AF47A4009FB755 /* ViewController_iPhone.xib */; };
-		A701B4C917AF47A4009FB755 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A701B4C717AF47A4009FB755 /* ViewController_iPad.xib */; };
+		A701B4DA17AF52CA009FB755 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A701B4D517AF52CA009FB755 /* ViewController.m */; };
+		A701B4DB17AF52CA009FB755 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A701B4D617AF52CA009FB755 /* ViewController_iPhone.xib */; };
+		A701B4DC17AF52CA009FB755 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A701B4D817AF52CA009FB755 /* CustomTableCell.m */; };
+		A701B4DD17AF52CA009FB755 /* CustomTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A701B4D917AF52CA009FB755 /* CustomTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +36,12 @@
 		A701B4BB17AF47A4009FB755 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A701B4BD17AF47A4009FB755 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A701B4BF17AF47A4009FB755 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		A701B4C117AF47A4009FB755 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A701B4C217AF47A4009FB755 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A701B4C517AF47A4009FB755 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		A701B4C817AF47A4009FB755 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		A701B4D417AF52CA009FB755 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A701B4D517AF52CA009FB755 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A701B4D617AF52CA009FB755 /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
+		A701B4D717AF52CA009FB755 /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		A701B4D817AF52CA009FB755 /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
+		A701B4D917AF52CA009FB755 /* CustomTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +90,12 @@
 			children = (
 				A701B4B817AF47A4009FB755 /* AppDelegate.h */,
 				A701B4B917AF47A4009FB755 /* AppDelegate.m */,
-				A701B4C117AF47A4009FB755 /* ViewController.h */,
-				A701B4C217AF47A4009FB755 /* ViewController.m */,
-				A701B4C417AF47A4009FB755 /* ViewController_iPhone.xib */,
-				A701B4C717AF47A4009FB755 /* ViewController_iPad.xib */,
+				A701B4D417AF52CA009FB755 /* ViewController.h */,
+				A701B4D517AF52CA009FB755 /* ViewController.m */,
+				A701B4D617AF52CA009FB755 /* ViewController_iPhone.xib */,
+				A701B4D717AF52CA009FB755 /* CustomTableCell.h */,
+				A701B4D817AF52CA009FB755 /* CustomTableCell.m */,
+				A701B4D917AF52CA009FB755 /* CustomTableCell.xib */,
 				A701B4B017AF47A4009FB755 /* Supporting Files */,
 			);
 			path = NewsFeedExample;
@@ -165,8 +170,8 @@
 				A701B4BC17AF47A4009FB755 /* Default.png in Resources */,
 				A701B4BE17AF47A4009FB755 /* Default@2x.png in Resources */,
 				A701B4C017AF47A4009FB755 /* Default-568h@2x.png in Resources */,
-				A701B4C617AF47A4009FB755 /* ViewController_iPhone.xib in Resources */,
-				A701B4C917AF47A4009FB755 /* ViewController_iPad.xib in Resources */,
+				A701B4DB17AF52CA009FB755 /* ViewController_iPhone.xib in Resources */,
+				A701B4DD17AF52CA009FB755 /* CustomTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +184,8 @@
 			files = (
 				A701B4B617AF47A4009FB755 /* main.m in Sources */,
 				A701B4BA17AF47A4009FB755 /* AppDelegate.m in Sources */,
-				A701B4C317AF47A4009FB755 /* ViewController.m in Sources */,
+				A701B4DA17AF52CA009FB755 /* ViewController.m in Sources */,
+				A701B4DC17AF52CA009FB755 /* CustomTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,22 +198,6 @@
 				A701B4B317AF47A4009FB755 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A701B4C417AF47A4009FB755 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A701B4C517AF47A4009FB755 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		A701B4C717AF47A4009FB755 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A701B4C817AF47A4009FB755 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -277,6 +267,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewsFeedExample/NewsFeedExample-Prefix.pch";
 				INFOPLIST_FILE = "NewsFeedExample/NewsFeedExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -288,6 +279,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewsFeedExample/NewsFeedExample-Prefix.pch";
 				INFOPLIST_FILE = "NewsFeedExample/NewsFeedExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -312,6 +304,7 @@
 				A701B4CE17AF47A4009FB755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
